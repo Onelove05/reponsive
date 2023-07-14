@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--reset-->
+    <link rel="stylesheet" href="./reset.css">
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--js-->
+    <script src="./main.js"></script>
+    <!--font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!---->
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!---->
+    <!-- animate style -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--  -->
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---->
+    <!-- slick slider -->
+    <!-- <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css"> -->
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="backdrop-body"></div>
+    <div class="page-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-start .align-items-center col-8 col-sm-7 col-lg-10 ">
+                        <button class="navbar-toggler p-0 pe-2 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <a href="../index.html" class="navbar-brand col-lg-3 col-xl-4" title="OH!Giày đẹp">
+                            <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/logo.png?1677034434901" alt="" class="navbar-image animate__animated animate__tada">
+                        </a>
+                        <div class="collapse navbar-collapse col-lg-9 col-xl-8" id="navbarToggleExternalContent">
+                            <ul class="navbar-nav position-relative d-flex align-items-center m-0 p-0">
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse " href="../index.html" title="Trang chủ">Trang chủ</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="../product/index.html" title="Sản phẩm" >Sản phẩm</a>
+                                <ul class="dropdown-menu d-flex">
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY NAM">GIÀY NAM</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày thể thao">Giày thể thao</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày đá bóng">Giày đá bóng</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY NỮ">GIÀY NỮ</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày thể thao">Giày thể thao</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Boot">Boot</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY CÔNG SỞ">GIÀY CÔNG SỞ</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày tây">Giày tây</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày lười">Giày lười</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sandal">Sandal</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="STREET WEAR">STREET WEAR</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Quần">Quần</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Áo">Áo</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Phụ kiện">Phụ kiện</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="../shoes-men/index.html" title="Giày nam">Giày nam</a>
+                                <ul class="dropdown-menu dropdown-menu-1 d-block">
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child dropdown-link-toggle" title="Giày thể thao">Giày thể thao
+                                            <i class="fa-solid fa-angle-right px-1"></i>
+                                        </a>
+                                        <ul class="dropdown-menu-list">
+                                            <li class="dropdown-item-list py-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Nike">Nike</a>
+                                            </li>
+                                            <li class="dropdown-item-list pb-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Adidas">Adidas</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Giày đá bóng">Giày đá bóng</a>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                    </li>
+                                </ul>   
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="../shoes-women/index.html"  title="Giày nữ">Giày nữ</a>
+                                <ul class="dropdown-menu dropdown-menu-1 d-block">
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child dropdown-link-toggle" title="Giày thể thao">Giày thể thao
+                                            <i class="fa-solid fa-angle-right px-1"></i>
+                                        </a>
+                                        <ul class="dropdown-menu-list">
+                                            <li class="dropdown-item-list py-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Nike">Nike</a>
+                                            </li>
+                                            <li class="dropdown-item-list pb-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Adidas">Adidas</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Boot">Boot</a>
+                                    </li>
+                                </ul> 
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="../big-sale/index.html" title="Big sale">Big sale</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="../news/index.html"  title="Tin tức">Tin tức</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="../contact/index.html" title="Liên hệ">Liên hệ</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="nav-right d-flex justify-content-end align-items-center col-4 col-sm-5 col-lg-2">
+                        <div class="d-flex">
+                            <div class="nav-search d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2 ">
+                                <i class="fa-solid fa-magnifying-glass nav-search-image" title="Tìm kiếm">
+                                    <a href="" class="header__right-search-link header__right"></a>
+                                </i>
+                                <form action="/" method="post" role="search" class="form-search">
+                                    <input type="search" name="search" class="form-search-input" value placeholder="Tìm kiếm..." autocomplete="off">
+                                    <button class="btn-icon form-search-btn">
+                                        <i class="fa-solid fa-magnifying-glass btn-icon-image"></i>
+                                    </button>
+                                </form>    
+                            </div>
+                            <div class="nav-user d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
+                                <i class="fa-regular fa-user nav-user-image fw-bold" title="Tài khoản">
+                                    <a href="" class="header__right-user-link"></a>
+                                </i>
+                                <div class="account">
+                                    <a href="../log-in/index.html" class="account-login" title="Đăng nhập">Đăng nhập</a>
+                                    <a href="../create-account/index.html" class="account-register" title="Tạo tài khoản">Đăng ký</a>
+                                    <a href="/" class="account-login-facebook" title="Tài khoản">
+                                        <i class="fab fa-facebook p-1"></i>
+                                        Facebook
+                                    </a>
+                                    <a href="/" class="account-login-google" title="Tài khoản">
+                                        <i class="fab fa-google-plus p-1"></i>
+                                        Google
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="nav-cart d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
+                                <i class="fa-sharp fa-solid fa-cart-shopping nav-cart-image" title="Giỏ hàng">
+                                    <a href="#" class="header__right-cart-link"></a>
+                                </i>
+                                <i class="cartCount count_item_pr">0</i>
+                                <p class="no-item">Không có sản phẩm nào</p>               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-content">
+        <div class="container container-content">
+            <div class="row row-content list-blogs my-0">
+                <section class="bread-crumb col-12 p-0">
+                    <div class="container-crumb">
+                        <ul class="breadcrumb">					
+                            <li class="crumbhome">
+                                <a href="../index.html" class="crumbhome-link" title="Trang chủ">
+                                    <span>Trang chủ</span>
+                                </a>						
+                                <span class="crumb-image">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </li>
+                            <li class="crumbhome"> 
+                                <strong>
+                                    <span> Tin tức</span>
+                                </strong>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/01-index-shoe-03-1-optimized.jpg?v=1611042952443" alt="4 cách phối đồ với giầy thể thao nam năng động không tưởng" title="4 cách phối đồ với giầy thể thao nam năng động không tưởng" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="4 cách phối đồ với giầy thể thao nam năng động không tưởng">4 cách phối đồ với giầy thể thao nam năng động không tưởng</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Thế kỷ 21 thế kỷ của những thay đổi. Hiện nay khi nói về vấn đề phối đồ mặc đẹp thì không chỉ nói là nhu cầu của phái...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/01-index-shoe-09-optimized.jpg?v=1611042954377" alt="Văn hóa streetwear mở ra kỷ nguyên mới cho ngành thời trang?" title="Văn hóa streetwear mở ra kỷ nguyên mới cho ngành thời trang?" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="Văn hóa streetwear mở ra kỷ nguyên mới cho ngành thời trang?">Văn hóa streetwear mở ra kỷ nguyên mới cho ngành thời trang?</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Streetwear không còn là nền văn hoá, nó đã trở thành kỷ nguyên mới dành cho thế hệ yêu thời trang của thế kỷ 21. Stre...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/01-index-shoe-07-optimized.jpg?v=1611042951180" alt="Giày lười nữ nổi bật với những ưu điểm khác biệt" title="Giày lười nữ nổi bật với những ưu điểm khác biệt" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="Giày lười nữ nổi bật với những ưu điểm khác biệt">Giày lười nữ nổi bật với những ưu điểm khác biệt</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Giày lười nữ, đôi giày thiết kế “ con lai “ giữa giày búp bê và giày thể thao. Đây là loại giày đang được rất nhiều b...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/01-index-shoe-05.jpg?v=1611041842553" alt="Tranh cãi xoay quanh nền văn hóa streetwear" title="Tranh cãi xoay quanh nền văn hóa streetwear" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="Tranh cãi xoay quanh nền văn hóa streetwear">Tranh cãi xoay quanh nền văn hóa streetwear</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Vào năm 2017, công ty Bain & Company thực hiện báo cáo về sự sang trọng của người tiêu dùng, họ nhận thấy thương ...</p>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/thoitrang4-optimized.jpg?v=1611042998443" alt="Phong cách thời trang streetwear – Từ “kẻ ngoại đạo” đến ông hoàng đường phố" title="Phong cách thời trang streetwear – Từ “kẻ ngoại đạo” đến ông hoàng đường phố" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="Phong cách thời trang streetwear – Từ “kẻ ngoại đạo” đến ông hoàng đường phố">Phong cách thời trang streetwear – Từ “kẻ ngoại đạo” đến ông hoàng đường phố</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Độc đáo, chân thực và thoải mái là những tính từ có thể được sử dụng để miêu tả phong cách thời trang streetwear. Nếu...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/thoitrang3.jpg?v=1609210373840" alt="Xu hướng – hiện tượng: Thời trang đường phố" title="Xu hướng – hiện tượng: Thời trang đường phố" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="Xu hướng – hiện tượng: Thời trang đường phố">Xu hướng – hiện tượng: Thời trang đường phố</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Bùng nổ một cách không ai ngờ tới, thời trang đường phố từ quá khứ cho đến hiện tại và tới hôm nay, sắp bước qua năm ...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/thoitrang2.jpg?v=1609210112127" alt="6 gợi ý diện trang phục phong cách đường phố chững chạc" title="6 gợi ý diện trang phục phong cách đường phố chững chạc" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="6 gợi ý diện trang phục phong cách đường phố chững chạc">6 gợi ý diện trang phục phong cách đường phố chững chạc</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Phong cách đường phố không chỉ dành riêng cho giới trẻ mà là cho tất cả mọi người, và ở từng độ tuổi khác nhau sẽ có ...</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 list-blogs-groups">
+                    <div class="list-blogs-item">
+                        <a href="#" class="list-blogs-link">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/405/012/articles/thoitrang.jpg?v=1609209832773" alt="5 xu hướng thời trang thịnh hành trên đường phố nước Ý" title="5 xu hướng thời trang thịnh hành trên đường phố nước Ý" class="list-blogs-image">
+                        </a>
+                        <span class="list-blogs-time">
+                            <span class="time-date">29</span>
+                            <span class="time-year">12/2020</span>
+                        </span>
+                    </div>
+                    <h3>
+                        <a href="" class="section-blogs-link" title="5 xu hướng thời trang thịnh hành trên đường phố nước Ý">5 xu hướng thời trang thịnh hành trên đường phố nước Ý</a>
+                    </h3>
+                    <p class="section-blogs-paragraph">Trên đường phố nước Ý, nhiều tín đồ thời trang mặc một vài màu sắc theo xu hướng, cách kết hợp trang phục và những mó...
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="sub-socials">
+            <div class="row sub-container py-2">
+                    <span class="col-12 justify-content-center col-lg-4 justify-content-lg-end py-2 sub-container-col">Đăng kí nhận thông tin từ chúng tôi</span>
+                    <form action="" class="d-block d-sm-flex col-12 justify-content-center col-lg-8 justify-content-lg-start sub-container-form ">
+                        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" autocomplete="off" class="d-block d-sm-inline-block w-50 m-auto m-sm-0 my-2 my-sm-0">
+                        <button type="submit" id="sub" name="subscribe" title="Đăng ký ngay" class="">Đăng ký ngay</button>
+                    </form>
+            </div>
+            <div class="row mt-3 m-0">
+                <ul class="socials-container col-7 col-md-8 p-2">
+                    <div class="row">
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.facebook.com/" class="facebook" title="Facebook">
+                                <i class="fa-brands fa-facebook-f facebook-image"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://.twitter.com/" class="twitter" title="Twitter">
+                                <i class="fa-brands fa-twitter twitter-image"></i>
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.instagram.com/" class="instagram" title="Instagram">
+                                <i class="fa-brands fa-square-instagram instagram-image"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.youtube.com/" class="youtube" title="Youtube">
+                                <i class="fa-brands fa-youtube youtube-image"></i>
+                                Youtube
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="row footer-container">
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Danh mục</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Hướng dẫn</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Chính sách</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Hỗ trợ</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-12 col-lg-4 footer-container-box5">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">THÔNG TIN LIÊN HỆ</h4>
+                     </div>
+                    <div class="footer-container-list-box">
+                       <p class="maps">
+                            <i class="fa-solid fa-location-dot maps-image"></i>
+                            Tầng 2 , tòa nhà HCMCC. 249A Thụy Khuê, Tây Hồ, Hà Nội
+                       </p>
+                       <p class="phone" title="19001357">
+                        <i class="fa-sharp fa-solid fa-phone-volume phone-image"></i>
+                        1900 1357
+                       </p>
+                       <p class="mail" title="support@sapo.vn">
+                            <i class="fa-solid fa-envelope mail-image"></i>
+                            support@sapo.vn
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="footer-copyright-container">
+                <span>Bản quyền thuộc về</span>
+                <span>OH! Team</span>
+                <span>|</span>
+                <span>Cung cấp bởi Sapo</span>
+            </div>
+        </div>
+    </footer>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!---->
+    <!-- Slick slider -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./main.js"></script>
+    <!--  -->
+</body>
+</html>

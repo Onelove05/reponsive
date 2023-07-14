@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--reset-->
+    <link rel="stylesheet" href="./reset.css">
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--js-->
+    <script src="./main.js"></script>
+    <!--font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!---->
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!---->
+    <!-- animate style -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--  -->
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---->
+    <!-- slick slider -->
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="backdrop-body"></div>
+    <div class="page-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-start .align-items-center col-8 col-sm-7 col-lg-10 ">
+                        <button class="navbar-toggler p-0 pe-2 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <a href="/./index.html" class="navbar-brand col-lg-3 col-xl-4" title="OH!Giày đẹp">
+                            <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/logo.png?1677034434901" alt="" class="navbar-image animate__animated animate__tada">
+                        </a>
+                        <div class="collapse navbar-collapse col-lg-9 col-xl-8" id="navbarToggleExternalContent">
+                            <ul class="navbar-nav position-relative d-flex align-items-center m-0 p-0">
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse " href="/./index.html" title="Trang chủ">Trang chủ</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="/./product/index.html" title="Sản phẩm" >Sản phẩm</a>
+                                <ul class="dropdown-menu d-flex">
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY NAM">GIÀY NAM</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày thể thao">Giày thể thao</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày đá bóng">Giày đá bóng</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY NỮ">GIÀY NỮ</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày thể thao">Giày thể thao</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Boot">Boot</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="GIÀY CÔNG SỞ">GIÀY CÔNG SỞ</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày tây">Giày tây</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Giày lười">Giày lười</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Sandal">Sandal</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-link" title="STREET WEAR">STREET WEAR</a>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Quần">Quần</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Áo">Áo</a>
+                                            </li>
+                                            <li class="dropdown-item-child">
+                                                <a href="" class="dropdown-link-child" title="Phụ kiện">Phụ kiện</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="/./shoes-men/index.html" title="Giày nam">Giày nam</a>
+                                <ul class="dropdown-menu dropdown-menu-1 d-block">
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child dropdown-link-toggle" title="Giày thể thao">Giày thể thao
+                                            <i class="fa-solid fa-angle-right px-1"></i>
+                                        </a>
+                                        <ul class="dropdown-menu-list">
+                                            <li class="dropdown-item-list py-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Nike">Nike</a>
+                                            </li>
+                                            <li class="dropdown-item-list pb-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Adidas">Adidas</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Giày đá bóng">Giày đá bóng</a>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                    </li>
+                                </ul>   
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative dropdown">
+                                <a class="nav-link animate__animated animate__pulse dropdown-toggle" href="/./shoes-women/index.html"  title="Giày nữ">Giày nữ</a>
+                                <ul class="dropdown-menu dropdown-menu-1 d-block">
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child dropdown-link-toggle" title="Giày thể thao">Giày thể thao
+                                            <i class="fa-solid fa-angle-right px-1"></i>
+                                        </a>
+                                        <ul class="dropdown-menu-list">
+                                            <li class="dropdown-item-list py-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Nike">Nike</a>
+                                            </li>
+                                            <li class="dropdown-item-list pb-1 px-2">
+                                                <a href="" class="dropdown-link-list" title="Adidas">Adidas</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Sneaker">Sneaker</a>
+                                    </li>
+                                    <li class="dropdown-item pe-0">
+                                        <a href="" class="dropdown-link-child" title="Boot">Boot</a>
+                                    </li>
+                                </ul> 
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="/./big-sale/index.html" title="Big sale">Big sale</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="/./news/index.html"  title="Tin tức">Tin tức</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center position-relative">
+                                <a class="nav-link animate__animated animate__pulse" href="/./contact/index.html" title="Liên hệ">Liên hệ</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="nav-right d-flex justify-content-end align-items-center col-4 col-sm-5 col-lg-2">
+                        <div class="d-flex">
+                            <div class="nav-search d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2 ">
+                                <i class="fa-solid fa-magnifying-glass nav-search-image" title="Tìm kiếm">
+                                    <a href="" class="header__right-search-link header__right"></a>
+                                </i>
+                                <form action="/" method="post" role="search" class="form-search">
+                                    <input type="search" name="search" class="form-search-input" value placeholder="Tìm kiếm..." autocomplete="off">
+                                    <button class="btn-icon form-search-btn">
+                                        <i class="fa-solid fa-magnifying-glass btn-icon-image"></i>
+                                    </button>
+                                </form>    
+                            </div>
+                            <div class="nav-user d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
+                                <i class="fa-regular fa-user nav-user-image fw-bold" title="Tài khoản">
+                                    <a href="" class="header__right-user-link"></a>
+                                </i>
+                                <div class="account">
+                                    <a href="/./log-in/index.html" class="account-login" title="Đăng nhập">Đăng nhập</a>
+                                    <a href="/./create-account/index.html" class="account-register" title="Tạo tài khoản">Đăng ký</a>
+                                    <a href="/" class="account-login-facebook" title="Tài khoản">
+                                        <i class="fab fa-facebook p-1"></i>
+                                        Facebook
+                                    </a>
+                                    <a href="/" class="account-login-google" title="Tài khoản">
+                                        <i class="fab fa-google-plus p-1"></i>
+                                        Google
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="nav-cart d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
+                                <i class="fa-sharp fa-solid fa-cart-shopping nav-cart-image" title="Giỏ hàng">
+                                    <a href="#" class="header__right-cart-link"></a>
+                                </i>
+                                <i class="cartCount count_item_pr">0</i>
+                                <p class="no-item">Không có sản phẩm nào</p>               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-content">
+        <div class="container container-content">
+            <div class="row row-content">
+                <section class="bread-crumb col-12 p-0">
+                    <div class="container-crumb">
+                        <ul class="breadcrumb">					
+                            <li class="crumbhome">
+                                <a href="/./index.html" class="crumbhome-link" title="Trang chủ">
+                                    <span>Trang chủ</span>
+                                </a>						
+                                <span class="crumb-image">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </li>
+                            <li class="crumbhome ps-1">
+                                <a href="/./product/index.html" class="crumbhome-link" title="Trang chủ">
+                                    <span> Sản phẩm </span>
+                                </a>						
+                                <span class="crumb-image">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </li>
+                            <li class="crumbhome"> 
+                                <strong>
+                                    <span> Chuck Taylor All Star Peace Hi Top</span>
+                                </strong>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="col-12 col-md-6 col-lg-5 p-0">
+                    <div class="slick-image">
+                        <div class="slick-image-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" alt="" class="w-100 slick-image-list-img">
+                        </div>
+                        <div class="slick-image-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/100/405/012/products/1.jpg?v=1609212904903" alt="" class="w-100 slick-image-list-img">
+                        </div>
+                        <div class="slick-image-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/100/405/012/products/2.jpg?v=1609212905513" alt="" class="w-100 slick-image-list-img">
+                        </div>
+                        <div class="slick-image-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/100/405/012/products/3.jpg?v=1609212905883" alt="" class="w-100 slick-image-list-img">
+                        </div>
+                        <div class="slick-image-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/100/405/012/products/4.jpg?v=1609212906240" alt="" class="w-100 slick-image-list-img">
+                        </div>
+
+                    </div>
+                    <div class="slick-image-small">
+                        <div class="slick-image-small-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" alt="" class="w-100 slick-image-small-list-img">
+                        </div>
+                        <div class="slick-image-small-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/1.jpg?v=1609212904903" alt="" class="w-100 slick-image-small-list-img">
+                        </div>
+                        <div class="slick-image-small-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/2.jpg?v=1609212905513" alt="" class="w-100 slick-image-small-list-img">
+                        </div>
+                        <div class="slick-image-small-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/3.jpg?v=1609212905883" alt="" class="w-100 slick-image-small-list-img">
+                        </div>
+                        <div class="slick-image-small-list">
+                            <a href=""></a>
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/4.jpg?v=1609212906240" alt="" class="w-100 slick-image-small-list-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ps-4">
+                    <h1 class="title-heading">Chuck Taylor All Star Peace Hi Top</h1>
+                    <div class="title-child">
+                        <span>Mã sản phẩm :</span>
+                        <span class="text-child">Đang cập nhập</span>
+                    </div>
+                    <div class="title-child">
+                        <span>Thương hiệu :</span>
+                        <span class="text-child">Đang cập nhập</span>
+                    </div>
+                    <div class="title-child">
+                        <span>Tình trạng :</span>
+                        <span class="text-child">Còn hàng</span>
+                    </div>
+                    <div class="pb-2 border-price">
+                        <span class="text-child text-child-price">1.600.000₫</span>
+                    </div>
+                    <div class="d-flex align-items-center py-4">
+                        <span>Số lượng :</span>
+                        <div class="buttons_added ps-2 d-flex align-items-center">
+                            <input class="minus is-form" type="button" value="-">
+                            <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                            <input class="plus is-form" type="button" value="+">
+                          </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center pb-4">
+                        <button class="btn-add">THÊM VÀO GIỎ</button>
+                        <button class="btn-buy">MUA NGAY</button>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Mô tả sản phẩm
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="text-para">
+                                    <p>
+                                        Màu sắc: Black/Lemongrass/White
+                                    </p>
+                                    <p>
+                                        Chuck Taylor All Star Peace Hi Top thiết kế với tông màu đen cổ điển mặt trong của giày có logo Peace dán có thể tháo rời.
+                                    </p>
+                                    <p>
+                                        Mặt ngoài nổi bật hơn với chữ Peace được in theo phong cách phối màu ombre xanh lá – xanh lam, tạo nên sức hút của đôi giày.
+                                    </p>
+                                    <p>
+                                        Chất liệu vải canvas nhẹ, tạo cảm giác thoải mái cho người sử dụng.
+                                    </p>
+                                    <p>
+                                        Đế có rãnh chống trơn trượt, không chỉ đem lại sự thoải mái và an toàn khi di chuyển mà còn giúp sản phẩm có độ bền. 
+                                    </p>
+                                    <p>
+                                        Kiểu dáng mạnh mẽ, đế cao su bền chắc, có độ bám cao.
+                                    </p>
+                                    <p>
+                                        Đường may vô cùng tỉ mỉ, chắc chắn giúp bạn hoàn toàn an tâm về chất lượng sản phẩm.
+                                    </p>
+                                    <p>
+                                        Logo thương hiệu được bố trí nổi bật trên sản phẩm
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Hướng dẫn mua hàng
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+								<div class="text-para">
+                                    <p>
+                                        <strong>Bước 1:</strong>&nbsp;Truy cập website và lựa chọn sản phẩm cần mua để mua hàng
+                                    </p>
+                                    <p>
+                                        <strong>Bước 2:</strong>&nbsp;Click và sản phẩm muốn mua, màn hình hiển thị ra pop up với các lựa chọn sau
+                                    </p>
+                                    <p>Nếu bạn muốn tiếp tục mua hàng: Bấm vào phần tiếp    tục mua hàng để lựa chọn thêm sản phẩm vào giỏ hàng
+    
+                                    </p>
+                                    <p>Nếu bạn muốn xem giỏ hàng để cập nhật sản phẩm: Bấm vào xem giỏ hàng
+    
+                                    </p>
+                                    <p>Nếu bạn muốn đặt hàng và thanh toán cho sản phẩm này vui lòng bấm vào: Đặt hàng và thanh toán
+    
+                                    </p>
+                                    <p>
+                                        <strong>Bước 3:</strong>&nbsp;Lựa chọn thông tin tài khoản thanh toán
+                                    </p>
+                                    <p>Nếu bạn đã có tài khoản vui lòng nhập thông tin tên đăng nhập là email và mật khẩu vào mục đã có tài khoản trên hệ thống
+    
+                                    </p>
+                                    <p>Nếu bạn chưa có tài khoản và muốn đăng ký tài khoản vui lòng điền các thông tin cá nhân để tiếp tục đăng ký tài khoản. Khi có tài khoản bạn sẽ dễ dàng theo dõi được đơn hàng của mình
+    
+                                    </p>
+                                    <p>Nếu bạn muốn mua hàng mà không cần tài khoản vui lòng nhấp chuột vào mục đặt hàng không cần tài khoản
+    
+                                    </p>
+                                    <p>
+                                        <strong>Bước 4:</strong>&nbsp;Điền các thông tin của bạn để nhận đơn hàng, lựa chọn hình thức thanh toán và vận chuyển cho đơn hàng của mình
+                                    </p>
+                                    <p>
+                                        <strong>Bước 5:</strong>&nbsp;Xem lại thông tin đặt hàng, điền chú thích và gửi đơn hàng
+                                    </p>
+                                    <p>Sau khi nhận được đơn hàng bạn gửi chúng tôi sẽ liên hệ bằng cách gọi điện lại để xác nhận lại đơn hàng và địa chỉ của bạn.
+    
+                                    </p>
+                                    <p>Trân trọng cảm ơn.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <div class="service-right">
+                        <div class="service-right-item">
+                            <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/policy_pro_1.svg?1687313242844" alt="Free ship" class="service-right-image">
+                            <div class="service-right-para">
+                                <b class="d-block">Free ship</b>
+                                Miễn phí vận chuyển nội thành
+                            </div>
+                        </div>
+                        <div class="service-right-item">
+                            <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/policy_pro_2.svg?1687313242844" alt="Đổi trả hàng" class="service-right-image">
+                            <div class="service-right-para">
+                                <b class="d-block">Đổi trả hàng</b>
+                                 Đổi trả lên tới 30 ngày
+                            </div>
+                        </div>
+                        <div class="service-right-item">
+                            <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/policy_pro_3.svg?1687313242844" alt="Khuyến mãi" class="service-right-image">
+                            <div class="service-right-para">
+                                <b class="d-block">Khuyến mãi</b>
+                                 Nhiều khuyến mãi lớn
+                            </div>
+                        </div>
+                        <div class="service-right-item">
+                            <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/policy_pro_4.svg?1687313242844" alt="Hotline" class="service-right-image">
+                            <div class="service-right-para">
+                                <b class="d-block">Hotline</b>
+                                <a href="tel:19006750" class="link-trans">1900 6750</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="sub-socials">
+            <div class="row sub-container py-2">
+                    <span class="col-12 justify-content-center col-lg-4 justify-content-lg-end py-2 sub-container-col">Đăng kí nhận thông tin từ chúng tôi</span>
+                    <form action="" class="d-block d-sm-flex col-12 justify-content-center col-lg-8 justify-content-lg-start sub-container-form ">
+                        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" autocomplete="off" class="d-block d-sm-inline-block w-50 m-auto m-sm-0 my-2 my-sm-0">
+                        <button type="submit" id="sub" name="subscribe" title="Đăng ký ngay" class="">Đăng ký ngay</button>
+                    </form>
+            </div>
+            <div class="row mt-3 m-0">
+                <ul class="socials-container col-7 col-md-8 p-2">
+                    <div class="row">
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.facebook.com/" class="facebook" title="Facebook">
+                                <i class="fa-brands fa-facebook-f facebook-image"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://.twitter.com/" class="twitter" title="Twitter">
+                                <i class="fa-brands fa-twitter twitter-image"></i>
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.instagram.com/" class="instagram" title="Instagram">
+                                <i class="fa-brands fa-square-instagram instagram-image"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="socials-container-list col-6 col-md-3">
+                            <a href="https://www.youtube.com/" class="youtube" title="Youtube">
+                                <i class="fa-brands fa-youtube youtube-image"></i>
+                                Youtube
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="row footer-container">
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Danh mục</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Hướng dẫn</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Chính sách</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-3 col-lg-2">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">Hỗ trợ</h4>
+                     </div>
+                    <div class="footer-container-list">
+                        <ul class="footer-container-list-ul">
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nam">Giày nam  </a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày nữ">Giày nữ</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Giày công sở">Giày công sở</a>
+                            </li>
+                            <li class="footer-container-list-li">
+                                <a href="" class="footer-container-list-li-link" title="Street wear">Street wear</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-container-box col-sm-12 col-lg-4 footer-container-box5">
+                    <div class="footer-container-click">
+                        <h4 class="clicked">THÔNG TIN LIÊN HỆ</h4>
+                     </div>
+                    <div class="footer-container-list-box">
+                       <p class="maps">
+                            <i class="fa-solid fa-location-dot maps-image"></i>
+                            Tầng 2 , tòa nhà HCMCC. 249A Thụy Khuê, Tây Hồ, Hà Nội
+                       </p>
+                       <p class="phone" title="19001357">
+                        <i class="fa-sharp fa-solid fa-phone-volume phone-image"></i>
+                        1900 1357
+                       </p>
+                       <p class="mail" title="support@sapo.vn">
+                            <i class="fa-solid fa-envelope mail-image"></i>
+                            support@sapo.vn
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="footer-copyright-container">
+                <span>Bản quyền thuộc về</span>
+                <span>OH! Team</span>
+                <span>|</span>
+                <span>Cung cấp bởi Sapo</span>
+            </div>
+        </div>
+    </footer>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!---->
+    <!-- Slick slider -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./main.js"></script>
+    <!--  -->
+</body>
+</html>
