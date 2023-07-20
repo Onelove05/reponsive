@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---->
     <!--reset-->
     <link rel="stylesheet" href="./reset.css">
     <!--css-->
@@ -15,19 +18,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!---->
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--  -->
     <!--font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!---->
     <!-- animate style -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!--  -->
-    <!--bootstrap css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!---->
+
     <!-- slick slider -->
-    <!-- <link rel="stylesheet" href="./slick/slick.css">
-    <link rel="stylesheet" href="./slick/slick-theme.css"> -->
+
     <link
         rel="stylesheet"
         type="text/css"
@@ -35,11 +39,7 @@
       />
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!--  -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+
 </head>
 <body>
     <div class="backdrop-body"></div>
@@ -47,14 +47,14 @@
         <div class="main-header">
             <div class="container">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-start .align-items-center col-8 col-sm-7 col-lg-10 ">
-                        <button class="navbar-toggler p-0 pe-2 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-start .align-items-center col-12 ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <i class="fa-solid fa-bars"></i>
                         </button>
-                        <a href="./index.html" class="navbar-brand col-lg-3 col-xl-4" title="OH!Giày đẹp">
+                        <a href="./index.html" class="navbar-brand col-6 col-sm-6 col-lg-2 col-xl-3 col-xxl-3" title="OH!Giày đẹp">
                             <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/logo.png?1677034434901" alt="" class="navbar-image animate__animated animate__tada">
                         </a>
-                        <div class="collapse navbar-collapse col-lg-9 col-xl-8" id="navbarToggleExternalContent">
+                        <div class="collapse navbar-collapse col-lg-8 col-xl-7 col-xxl-7 justify-content-center" id="navbarToggleExternalContent">
                             <ul class="navbar-nav position-relative d-flex align-items-center m-0 p-0">
                             <li class="nav-item d-flex align-items-center position-relative">
                                 <a class="nav-link animate__animated animate__pulse " href="./index.html" title="Trang chủ">Trang chủ</a>
@@ -179,46 +179,38 @@
                             </li>
                             </ul>
                         </div>
-                    </nav>
-                    <div class="nav-right d-flex justify-content-end align-items-center col-4 col-sm-5 col-lg-2">
-                        <div class="d-flex">
-                            <div class="nav-search d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2 ">
-                                <i class="fa-solid fa-magnifying-glass nav-search-image" title="Tìm kiếm">
-                                    <a href="" class="header__right-search-link header__right"></a>
-                                </i>
-                                <form action="/" method="post" role="search" class="form-search">
-                                    <input type="search" name="search" class="form-search-input" value placeholder="Tìm kiếm..." autocomplete="off">
-                                    <button class="btn-icon form-search-btn">
-                                        <i class="fa-solid fa-magnifying-glass btn-icon-image"></i>
-                                    </button>
-                                </form>    
-                            </div>
-                            <div class="nav-user d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
-                                <i class="fa-regular fa-user nav-user-image fw-bold" title="Tài khoản">
-                                    <a href="" class="header__right-user-link"></a>
-                                </i>
-                                <div class="account">
-                                    <a href="./log-in/index.html" class="account-login" title="Đăng nhập">Đăng nhập</a>
-                                    <a href="./create-account/index.html" class="account-register" title="Tạo tài khoản">Đăng ký</a>
-                                    <a href="/" class="account-login-facebook" title="Tài khoản">
-                                        <i class="fab fa-facebook p-1"></i>
-                                        Facebook
-                                    </a>
-                                    <a href="/" class="account-login-google" title="Tài khoản">
-                                        <i class="fab fa-google-plus p-1"></i>
-                                        Google
-                                    </a>
+                        <div class="nav-right d-flex justify-content-end align-items-center col-4 col-sm-4 col-lg-2 col-xl-2 col-xxl-2">
+                                <div class="nav-search d-flex justify-content-center align-items-center position-relative">
+                                    <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/search.svg?1687313242844" alt="Tìm kiếm" title="Tìm kiếm" class="nav-search-image">
+                                    <form action="/" method="post" role="search" class="form-search">
+                                        <input type="search" name="search" class="form-search-input" value placeholder="Tìm kiếm..." autocomplete="off">
+                                        <button class="btn-icon form-search-btn">
+                                            <i class="fa-solid fa-magnifying-glass btn-icon-image"></i>
+                                        </button>
+                                    </form>    
                                 </div>
-                            </div>
-                            <div class="nav-cart d-flex justify-content-center align-items-center position-relative fs-3 px-2 mt-2">
-                                <i class="fa-sharp fa-solid fa-cart-shopping nav-cart-image" title="Giỏ hàng">
-                                    <a href="#" class="header__right-cart-link"></a>
-                                </i>
-                                <i class="cartCount count_item_pr">0</i>
-                                <p class="no-item">Không có sản phẩm nào</p>               
-                            </div>
+                                <div class="nav-user d-flex justify-content-center align-items-center position-relative">
+                                    <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/user.svg?1687313242844" alt="Tài khoản" class="nav-user-image">
+                                    <div class="account">
+                                        <a href="./log-in/index.html" class="account-login" title="Đăng nhập">Đăng nhập</a>
+                                        <a href="./create-account/index.html" class="account-register" title="Tạo tài khoản">Đăng ký</a>
+                                        <a href="/" class="account-login-facebook" title="Tài khoản">
+                                            <i class="fab fa-facebook p-1"></i>
+                                            Facebook
+                                        </a>
+                                        <a href="/" class="account-login-google" title="Tài khoản">
+                                            <i class="fab fa-google-plus p-1"></i>
+                                            Google
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="nav-cart d-flex justify-content-center align-items-center position-relative">
+                                    <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/shopping-cart.svg?1687313242844" alt="Giỏ hàng" class="nav-cart-image">
+                                    <i class="cartCount count_item_pr">0</i>
+                                    <p class="no-item">Không có sản phẩm nào</p>               
+                                </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -261,7 +253,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="d-none col-md-3 d-md-flex col-lg-2 justify-content-end align-items-center content-button p-0">
+                <div class="d-none col-md-3 d-md-flex col-lg-2 justify-content-end align-items-center content-button p-0 mb-2">
                     <a href="./product-outstand/index.html" class="content-button-link">
                         <button type="button" class="btn btn-secondary btn-sm content-button-btn" title="Xem tất cả">Xem tất cả</button>
                     </a>
@@ -279,15 +271,22 @@
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" alt="Chuck Taylor All Star Peace Hi Top" class="section-body-image" title="Chuck Taylor All Star Peace Hi Top">
                             </a>
                             <div class="body-quickview">
-                                <a href="" class="body-link-hover" title="Xem nhanh">
-                                    <i class="fa-solid fa-magnifying-glass body-link-image"></i>
+                                <a class="body-link-hover d-block" title="Xem nhanh">
+                                    <button type="button" class="btn btn-primary btn-quickview" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        
+                                        <i class="fa-solid fa-magnifying-glass body-link-image"></i>
+                                      </button>
                                 </a>
                                 <form action="/" method="post" class="section-body-form">
                                     <input type="hidden" name="variantId" value="">
-                                    <button class="btn-add-cart body-form-button animate__animated animate__slideInDown" title="Mua hàng">MUA HÀNG</button>
+                                    <!-- <button class="btn-add-cart body-form-button animate__animated animate__slideInDown" title="Mua hàng">MUA HÀNG</button> -->
+                                    <button type="button" class="btn btn-primary btn-add-cart body-form-button animate__animated animate__slideInDown" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        MUA HÀNG
+                                      </button>
                                 </form>
                             </div>
                         </div>
+                        
                         <div class="section-body-bottom">
                             <h3 class="body-bottom-name">
                                 <a href="./Sneaker/Sneaker-1/index.html" title="Chuck Taylor All Star Peace Hi Top" class="body-bottom-name-link">Chuck Taylor All Star Peace Hi Top</a>
@@ -341,7 +340,7 @@
                                 <img src="https://bizweb.dktcdn.net/thumb/medium/100/405/012/products/product10-8975ded1-c218-4ded-b95f-df238843cef5.jpg?v=1609149198293" alt="Chuck Taylor All Star Chuck Taylor Cheerful Hi Top" class="section-body-image" title="Chuck Taylor All Star Chuck Taylor Cheerful Hi Top">
                             </a>
                             <div class="body-quickview">
-                                <a href="" class="body-link-hover" title="Xem nhanh">
+                                <a href="" class="body-link-hover d-block" title="Xem nhanh" id="clickhidden">
                                     <i class="fa-solid fa-magnifying-glass body-link-image"></i>
                                 </a>
                                 <form action="/" method="post" class="section-body-form">
@@ -519,7 +518,7 @@
                         <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/collection_2_banner.jpg?1687313242844" alt="" class="banner-left w-100">
                     </a>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 p-0">
                     <div class="row">
                         <div class="col-6 ps-0 pe-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
                             <div class="section-content">
@@ -807,7 +806,7 @@
                         <img src="https://bizweb.dktcdn.net/100/405/012/themes/793822/assets/collection_3_banner.jpg?1687313242844" alt="" class="banner-left w-100">
                     </a>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 p-0">
                     <div class="row">
                         <div class="col-6 ps-0 pe-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
                             <div class="section-content">
@@ -1092,7 +1091,7 @@
         </div>
         <div class="container">
             <div class="row d-flex justify-content-start">
-                        <div class="col-6 ps-0 pe-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-sm-0 pe-sm-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1109,7 +1108,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-2 pe-0 col-md-4 px-md-1 col-lg-4 col-xl-3 px-xl-1 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-2 pe-0 col-md-4 px-md-1 col-lg-4 col-xl-3 px-xl-1 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1127,7 +1126,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-0 pe-2 col-md-4 ps-md-2 pe-md-0 col-lg-4 col-xl-3 px-xl-1 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-sm-0 pe-sm-2 col-md-4 ps-md-2 pe-md-0 col-lg-4 col-xl-3 px-xl-1 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1145,7 +1144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-2 pe-0 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-2 pe-xl-0 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-2 pe-0 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 ps-xl-2 pe-xl-0 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1163,7 +1162,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-0 pe-2 col-md-4 px-md-1 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-sm-0 pe-sm-2 col-md-4 px-md-1 col-lg-4 col-xl-3 ps-xl-0 pe-xl-2 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1183,7 +1182,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-2 pe-0 col-md-4 ps-md-2 pe-md-0 col-lg-4 col-xl-3 px-xl-1 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-2 pe-0 col-md-4 ps-md-2 pe-md-0 col-lg-4 col-xl-3 px-xl-1 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1200,7 +1199,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-0 pe-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 px-xl-1 p-0">
+                        <div class="col-12 p-xs-0 col-sm-6 ps-sm-0 pe-sm-2 col-md-4 ps-md-0 pe-md-2 col-lg-4 col-xl-3 px-xl-1 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
                                     <a href="" class="section-body-link section-body-link-child">
@@ -1217,7 +1216,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ps-2 pe-0 col-md-4 px-md-1 col-lg-4 col-xl-3
+                        <div class="col-12 p-xs-0 col-sm-6 ps-2 pe-0 col-md-4 px-md-1 col-lg-4 col-xl-3
                         ps-xl-2 pe-xl-0 p-0">
                             <div class="section-content section-content-child">
                                 <div class="section-body section-body-child">
@@ -1360,7 +1359,7 @@
             </div>
             <div class="row mt-3 m-0">
                 <ul class="socials-container col-7 col-md-8 p-2">
-                    <div class="row">
+                    <div class="row justify-content-center px-lg-5">
                         <li class="socials-container-list col-6 col-md-3">
                             <a href="https://www.facebook.com/" class="facebook" title="Facebook">
                                 <i class="fa-brands fa-facebook-f facebook-image"></i>
@@ -1391,7 +1390,7 @@
         </div>
         <div class="footer-main">
             <div class="row footer-container">
-                <div class="footer-container-box col-sm-3 col-lg-2">
+                <div class="footer-container-box mb-3 col-sm-3 col-lg-2">
                     <div class="footer-container-click">
                         <h4 class="clicked">Danh mục</h4>
                      </div>
@@ -1412,7 +1411,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-container-box col-sm-3 col-lg-2">
+                <div class="footer-container-box mb-3 col-sm-3 col-lg-2">
                     <div class="footer-container-click">
                         <h4 class="clicked">Hướng dẫn</h4>
                      </div>
@@ -1433,7 +1432,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-container-box col-sm-3 col-lg-2">
+                <div class="footer-container-box mb-3 col-sm-3 col-lg-2">
                     <div class="footer-container-click">
                         <h4 class="clicked">Chính sách</h4>
                      </div>
@@ -1454,7 +1453,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-container-box col-sm-3 col-lg-2">
+                <div class="footer-container-box mb-3 col-sm-3 col-lg-2">
                     <div class="footer-container-click">
                         <h4 class="clicked">Hỗ trợ</h4>
                      </div>
@@ -1475,16 +1474,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-container-box col-sm-12 col-lg-4 footer-container-box5">
+                <div class="footer-container-box mb-3 col-sm-12 col-lg-4 footer-container-box5">
                     <div class="footer-container-click">
                         <h4 class="clicked">THÔNG TIN LIÊN HỆ</h4>
                      </div>
                     <div class="footer-container-list-box">
-                       <p class="maps">
+                       <p class="maps mb-2">
                             <i class="fa-solid fa-location-dot maps-image"></i>
                             Tầng 2 , tòa nhà HCMCC. 249A Thụy Khuê, Tây Hồ, Hà Nội
                        </p>
-                       <p class="phone" title="19001357">
+                       <p class="phone mb-2" title="19001357">
                         <i class="fa-sharp fa-solid fa-phone-volume phone-image"></i>
                         1900 1357
                        </p>
@@ -1505,6 +1504,138 @@
             </div>
         </div>
     </footer>
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="container product-quickview">
+                <div class="row block-quickview">
+                    <div class="product-left-column col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                        <div class="slick-image slick-image-big">
+                            <div class="slick-image-list">
+                                <a href=""></a>
+                                <img src="https://bizweb.dktcdn.net/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" alt="" class="w-100 slick-image-list-img">
+                            </div>
+                            <div class="slick-image-list">
+                                <a href=""></a>
+                                <img src="https://bizweb.dktcdn.net/100/405/012/products/1.jpg?v=1609212904903" alt="" class="w-100 slick-image-list-img">
+                            </div>
+                            <div class="slick-image-list">
+                                <a href=""></a>
+                                <img src="https://bizweb.dktcdn.net/100/405/012/products/2.jpg?v=1609212905513" alt="" class="w-100 slick-image-list-img">
+                            </div>
+                            <div class="slick-image-list">
+                                <a href=""></a>
+                                <img src="https://bizweb.dktcdn.net/100/405/012/products/3.jpg?v=1609212905883" alt="" class="w-100 slick-image-list-img">
+                            </div>
+                            <div class="slick-image-list">
+                                <a href=""></a>
+                                <img src="https://bizweb.dktcdn.net/100/405/012/products/4.jpg?v=1609212906240" alt="" class="w-100 slick-image-list-img">
+                            </div>
+    
+                        </div>
+                        <div class="slick-image-small">
+                            <div class="slick-image-small-list">
+                                <!-- <a href=""></a> -->
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" alt="" class="w-100 slick-image-small-list-img">
+                            </div>
+                            <div class="slick-image-small-list">
+                                <!-- <a href=""></a> -->
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/1.jpg?v=1609212904903" alt="" class="w-100 slick-image-small-list-img">
+                            </div>
+                            <div class="slick-image-small-list">
+                                <!-- <a href=""></a> -->
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/2.jpg?v=1609212905513" alt="" class="w-100 slick-image-small-list-img">
+                            </div>
+                            <div class="slick-image-small-list">
+                                <!-- <a href=""></a> -->
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/3.jpg?v=1609212905883" alt="" class="w-100 slick-image-small-list-img">
+                            </div>
+                            <div class="slick-image-small-list">
+                                <!-- <a href=""></a> -->
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/405/012/products/4.jpg?v=1609212906240" alt="" class="w-100 slick-image-small-list-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-center-column product-info product-item col-xs-5 col-sm-7 col-md-7 col-lg-7" id="product-19553029">
+                        <div class="head-qv">
+                            <h3 class="qwp-name"><a class="text2line" href="/chuck-taylor-all-star-peace-hi-top" title="Chuck Taylor All Star Peace Hi Top">Chuck Taylor All Star Peace Hi Top</a></h3>
+        
+                        </div>
+                        <div class="quickview-info">
+                            <span class="vendor_ frist">Thương hiệu: <span class="vendor">Đang cập nhật</span></span>
+                            <span class="vendor_ status">Tình trạng: <span class="status_name">Còn hàng</span></span>
+        
+                            <span class="prices">
+                                <span class="price">1.600.000₫</span>
+                                <del class="old-price"></del>
+                            </span>
+                        </div>
+                        <div class="product-description">
+                            <div class="rte">Màu sắc:&nbsp;Black/Lemongrass/White
+        Chuck Taylor All Star&nbsp;Peace&nbsp;Hi Top thiết kế với tông màu đen cổ điển mặt trong của giày có logo Peace dán có thể&nbsp;tháo&nbsp;rời.
+        Mặt ngoài&nbsp;nổi bật hơn với&nbsp;chữ Peace được in theo phong cách phối màu ombre xanh lá – xanh lam, tạo nên sức hút của đôi giày.
+        Chất liệu vải canvas nhẹ, tạo cảm giác thoải mái cho người sử dụng.
+        Đế có rãnh chống trơn trượt, không chỉ đem lại sự thoải mái và an toàn khi di chuyển mà còn giúp sản phẩm có độ bền.&nbsp;
+        Kiểu dáng mạnh mẽ, đế cao su bền chắc, có độ bám cao.
+        Đường may vô cùng tỉ mỉ, chắc chắn giúp bạn hoàn toàn an tâm về chất lượng sản phẩm.
+        Logo thương hiệu được bố trí nổi bật trên sản phẩm
+        </div>
+                            <a href="/chuck-taylor-all-star-peace-hi-top" class="view-more" title="Xem chi tiết">Xem chi tiết</a>
+                        </div>
+                        <div class="buttons_added ps-2 d-flex align-items-center">
+                            <input class="minus is-form" type="button" value="-">
+                            <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                            <input class="plus is-form" type="button" value="+">
+                            <form action="/cart/add" method="post" enctype="multipart/form-data" class="quick_option variants form-ajaxtocart px-4" id="product-actions-19553029">
+                                    <button type="submit" name="add" class="btn btn-primary fix_add_to_cart button_cart_buy_enable add_to_cart_detail ajax_addtocart p-1" title="Thêm vào giỏ hàng">
+                                        <i class="ion-android-cart"></i>&nbsp;&nbsp;<span>Thêm vào giỏ hàng</span>
+                                    </button>
+                                <div class="total-price" style="display:none">1.600.000₫</div>
+                            <input type="hidden" name="id" value="19553029"><input type="hidden" name="variantId" value="37661821"></form>
+                          </div>
+        
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="title-popup-cart">
+              <img src="//bizweb.dktcdn.net/100/405/012/themes/793822/assets/ico_check_.png?1687313242844" alt="OH! Giày dép"> <span class="your_product">Bạn đã thêm [<span class="cart-popup-name"><a href="/chuck-taylor-all-star-peace-hi-top" title="Chuck Taylor All Star Peace Hi Top">Chuck Taylor All Star Peace Hi Top</a> </span>] vào giỏ hàng thành công ! </span>
+          </div>
+          <div class="wrap_popup">
+			<div class="title-quantity-popup">
+				<span class="cart_status" onclick="window.location.href='/cart';">Giỏ hàng của bạn có <span class="cart-popup-count">1</span> sản phẩm </span>
+			</div>
+		</div>
+        <div class="thead-popup">
+            <div style="width: 53%;" class="text-left">Sản phẩm</div>
+            <div style="width: 15%;" class="text-center">Đơn giá</div>
+            <div style="width: 15%;" class="text-center">Số lượng</div>
+            <div style="width: 17%;" class="text-center text-border">Thành tiền</div>
+        </div>
+        <div class="item-popup">
+            <div class="item-image" style="width: 53%;">
+                <a class="product-image" href="/chuck-taylor-all-star-peace-hi-top" title="Chuck Taylor All Star Peace Hi Top"><img alt="Chuck Taylor All Star Peace Hi Top" src="https://bizweb.dktcdn.net/100/405/012/products/product12-5db18680-51cf-418c-ba51-b5240ce020d8.jpg?v=1609149216970" width="90"></a>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!---->
